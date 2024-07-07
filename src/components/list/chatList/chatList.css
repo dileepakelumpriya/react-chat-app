@@ -60,5 +60,20 @@
       height: 3rem;
       border-radius: 50%;
     }
+
+    .texts{
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      span{
+        font-weight: 500;
+      }
+
+      p{
+        font-weight: 300;
+        font-size: 14px;
+      }
+    }
   }
 }
